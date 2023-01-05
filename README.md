@@ -64,5 +64,16 @@ Pour approximer la TF continue d’un signal x(t), représenté suivant un pas T
  title('le spectre Amplitude avec fft');
 
 ```
-<<img width="860" alt="2" src="https://user-images.githubusercontent.com/93081417/210832054-cf9c3969-7a7a-4727-9248-2b80c06a43df.png">
->
+<img width="860" alt="2" src="https://user-images.githubusercontent.com/93081417/210832054-cf9c3969-7a7a-4727-9248-2b80c06a43df.png">
+
+
+####  **3. Pour mieux visualiser le contenu fréquentiel du signal, utiliser la fonction fftshift, que effectue un décalage circulaire centré sur zéro du spectre en amplitude obtenu par la commande fft**
+
+```matlab
+ fshift = (-N/2:N/2-1)*(fe/N);
+ plot(fshift,fftshift(abs(y)));
+title('spectre du  x(t) apres fftshift():');
+
+```
+
+<img width="826" alt="3" src="https://user-images.githubusercontent.com/93081417/210833376-270192bc-6331-483e-abe9-d91ee36f210d.png">
