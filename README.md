@@ -44,7 +44,7 @@ plot(t,x,'.');
 title('signal x(t) :');
 
 ```
-![1](<img width="809" alt="image" src="https://user-images.githubusercontent.com/93081417/210829012-a8480d7a-553d-4508-bbfa-64465bfe74f4.png">
+![1](C:\Users\user\Desktop\ts
 )
 
 
