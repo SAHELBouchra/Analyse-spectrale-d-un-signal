@@ -5,8 +5,8 @@
 <a name="retour"></a>
 ## Sommaire :
 1. [ Objectifs. ](#objectif)
-1. [ Représentation temporelle et fréquentielle. ](#part1)
-2. [ Analyse fréquentielle du chant du rorqual bleu. ](#part2)
+2. [ Représentation temporelle et fréquentielle. ](#part1)
+3. [ Analyse fréquentielle du chant du rorqual bleu. ](#part2)
 
 <a name="objectif"></a>
 ### **1. Objectifs:**
@@ -27,7 +27,7 @@ $~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 <a name="part1"></a>
-### **1. Représentation temporelle et fréquentielle:**
+### **2. Représentation temporelle et fréquentielle:**
 Considérons un signal périodique x(t) constitué d’une somme de trois sinusoïdes de fréquences 440Hz, 550Hz, 2500Hz.
 #### **𝐱(𝐭) = 𝟏. 𝟐𝐜𝐨𝐬(𝟐𝐩𝐢𝟒𝟒𝟎𝐭 + 𝟏. 𝟐) + 𝟑𝐜𝐨𝐬(𝟐𝐩𝐢𝟓𝟓𝟎𝐭) + 𝟎. 𝟔𝐜𝐨𝐬(𝟐𝐩𝐢𝟐𝟓𝟎𝟎𝐭)**
 
@@ -77,3 +77,5 @@ title('spectre du  x(t) apres fftshift():');
 ```
 
 <img width="826" alt="3" src="https://user-images.githubusercontent.com/93081417/210833376-270192bc-6331-483e-abe9-d91ee36f210d.png">
+
+Un bruit correspond à tout phénomène perturbateur gênant la transmission ou l'interprétation d'un signal. Dans les applications scientifiques, les signaux sont souvent corrompus par du bruit aléatoire, modifiant ainsi leurs composantes fréquentielles. La TFD peut traiter le bruit aléatoire et révéler les fréquences qui y correspond
