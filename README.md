@@ -36,13 +36,13 @@ Considérons un signal périodique x(t) constitué d’une somme de trois sinuso
 ```matlab
 % qst 1
 
-fe = 1e4;  % fe: frequence d echantillonnage
-te = 1/fe; % te: pas d echantillonnage
-N = 10000; % N: nombre d echantillons (points)
-t = (0:N-1)*te; % intervalle de temps x(0),x(te),x(2te),...,x((N-1)te).
+fe = 1e4;  % frequence d echantillonnage
+te = 1/fe; % pas d echantillonnage
+N = 10000; % nombre d echantillons (points)
+t = (0:N-1)*te; % intervalle de temps 
 x = 1.2*cos(2*pi*440*t+1.2)+3*cos(2*pi*550*t)+0.6*cos(2*pi*2500*t);
 plot(t,x,'.');
-title('x(t) :');
+title('signal x(t) :');
 
 ```
 
