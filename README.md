@@ -79,3 +79,18 @@ title('spectre du  x(t) apres fftshift():');
 <img width="826" alt="3" src="https://user-images.githubusercontent.com/93081417/210833376-270192bc-6331-483e-abe9-d91ee36f210d.png">
 
 Un bruit correspond à tout phénomène perturbateur gênant la transmission ou l'interprétation d'un signal. Dans les applications scientifiques, les signaux sont souvent corrompus par du bruit aléatoire, modifiant ainsi leurs composantes fréquentielles. La TFD peut traiter le bruit aléatoire et révéler les fréquences qui y correspond
+
+
+####  **4- Créer un nouveau signal xnoise, en introduisant un bruit blanc gaussien dans le signal d’origine x(t), puis visualisez-le. Utiliser la commande randn pour générer ce bruit. Il est à noter qu’un bruit blanc est une réalisation d'un processus aléatoire dans lequel la densité spectrale de puissance est la même pour toutes les fréquences de la bande passante. Ce bruit suit une loi normale de moyenne 0 et d’écart type 1**
+
+
+```matlab
+bruit = 20*randn(size(x));%bruit
+xnoise = x+bruit; % signal+bruit
+plot(xnoise);
+title('le signal bruité') 
+```
+<img width="812" alt="4" src="https://user-images.githubusercontent.com/93081417/210835454-a580cdc8-2439-4077-8c2f-bd71f9ad147e.png">
+
+
+
