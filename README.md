@@ -34,7 +34,6 @@ Considérons un signal périodique x(t) constitué d’une somme de trois sinuso
 ####  **1- Tracer le signal x(t). Fréquence d’échantillonnage : fe = 10000Hz, Intervalle : Nombre d’échantillons : N = 5000.**
 
 ```matlab
-% qst 1
 
 fe = 1e4;  % frequence d echantillonnage
 te = 1/fe; % pas d echantillonnage
@@ -45,6 +44,8 @@ plot(t,x,'.');
 title('signal x(t) :');
 
 ```
+![1](<img width="809" alt="image" src="https://user-images.githubusercontent.com/93081417/210829012-a8480d7a-553d-4508-bbfa-64465bfe74f4.png">
+)
 
 
 
