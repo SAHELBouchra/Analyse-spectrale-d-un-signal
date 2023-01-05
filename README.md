@@ -104,4 +104,4 @@ sound(xnoise) %le signal bruité
 
 La puissance du signal en fonction de la fréquence (densité spectrale de puissance) est une métrique couramment utilisée en traitement du signal. Elle est définie comme étant le carré du module de la TFD, divisée par le nombre d'échantillons de fréquence
 
-####  6- Calculez puis tracer le spectre de puissance du signal bruité centré à la fréquence zéro**
+####  **6- Calculez puis tracer le spectre de puissance du signal bruité centré à la fréquence zéro**
