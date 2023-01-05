@@ -6,9 +6,13 @@
 ***
 <a name="retour"></a>
 ## Sommaire :
+1. [ Objectif. ](#objectif)
 1. [ Représentation temporelle et fréquentielle. ](#part1)
 2. [ Analyse fréquentielle du chant du rorqual bleu. ](#part2)
 ***
+<a name="objectif"></a>
+
+
 <a name="part1"></a>
 ### **1. Représentation temporelle et fréquentielle:**
 ***
