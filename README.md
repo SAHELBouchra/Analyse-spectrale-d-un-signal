@@ -94,3 +94,10 @@ title('le signal bruité')
 
 
 
+####  **5 – Utiliser la commande sound pour écouter le signal et puis le signal bruité**
+```matlab
+
+sound(x) %le signal
+sound(xnoise) %le signal bruité
+
+```
