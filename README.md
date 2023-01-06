@@ -178,5 +178,5 @@ $~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ***
 
 ## Réalisé par : SAHEL Bouchra
-## Filiere : Robotique et Cobotique .
+## Filiére : Robotique et Cobotique .
 ## Encadré par : Pr. Ammour Alae .
