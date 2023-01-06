@@ -130,3 +130,29 @@ ybruit = fft(xnoise);
 ###### Interpretation:
 lorsqu'on augmente l’intensité de bruit, on perd le signal informative
 
+$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$ [ (Revenir au sommaire) ](#retour)
+
+<a name="part2"></a>
+### **3. Analyse fréquentielle du chant du rorqual bleu**
+
+Il existe plusieurs signaux dont l’information est encodée dans des sinusoïdes. Les ondes sonores est un bon exemple. Considérons maintenant des données audios collectées à partir de microphones sous - marins au large de la Californie. On cherche à détecter à travers une analyse de Fourier le contenu fréquentiel d’une onde sonore émise pas un rorqual bleu.
+
+####  **1- Chargez, depuis le fichier ‘bluewhale.au’, le sous-ensemble de données qui correspond au chant du rorqual bleu du Pacifique. En effet, les appels de rorqual bleu sont des sons à basse fréquence, ils sont à peine audibles pour les humains. Utiliser la commande audioread pour lire le fichier. Le son à récupérer correspond aux indices allant de 2.45e4 à 3.10e4**
+
+```matlab
+[x,fs] = audioread("bluewhale.au");
+chant = x(2.45e4:3.10e4);
+```
+####  **2- Ecoutez ce signal en utilisant la commande sound, puis visualisez le**
+
+```matlab
+sound(x,fs)
+
+chant = x(2.45e4:3.10e4);
+N=length(chant);
+ts=1/fs;
+t=(0:N-1)*(10*ts);
+plot(t,chant);
+```
+
+<img width="827" alt="8" src="https://user-images.githubusercontent.com/93081417/211008125-99c85d36-89ed-4661-b6c5-d7b2f6fcb9d4.png">
