@@ -105,3 +105,14 @@ sound(xnoise) %le signal bruité
 La puissance du signal en fonction de la fréquence (densité spectrale de puissance) est une métrique couramment utilisée en traitement du signal. Elle est définie comme étant le carré du module de la TFD, divisée par le nombre d'échantillons de fréquence
 
 ####  **6- Calculez puis tracer le spectre de puissance du signal bruité centré à la fréquence zéro**
+
+
+```matlab
+xnoise = x+bruit; % signal+bruit
+fshift = (-N/2:N/2-1)*(fe/N);
+ybruit = fft(xnoise);
+plot(fshift,fftshift(abs(ybruit)));
+
+```
+<img width="829" alt="6" src="https://user-images.githubusercontent.com/93081417/211004188-a3ae660f-0462-4fb3-9347-8726e78d5984.png">
+
