@@ -156,3 +156,20 @@ plot(t,chant);
 ```
 
 <img width="827" alt="8" src="https://user-images.githubusercontent.com/93081417/211008125-99c85d36-89ed-4661-b6c5-d7b2f6fcb9d4.png">
+
+La TFD peut être utilisée pour identifier les composantes fréquentielles de ce signal audio. Dans certaines applications qui traitent de grandes quantités de données avec fft, il est courant de redimensionner l'entrée de sorte que le nombre d'échantillons soit une puissance de 2. fft remplit automatiquement les données avec des zéros pour augmenter la taille de l'échantillon. Cela peut accélérer considérablement le calcul de la transformation
+
+####  **3- Spécifiez une nouvelle longueur de signal qui sera une puissance de 2, puis tracer la densité spectrale de puissance du signal**
+
+```matlab
+dsp_chant = (abs(fft(chant)).^2)/N;
+f = (0:floor(N/2))*(fs/N)/10;
+plot(f,dsp_chant(1:floor(N/2)+1))
+title('le spectre')
+```
+<img width="814" alt="9" src="https://user-images.githubusercontent.com/93081417/211008790-d167aa7a-60d0-47da-b3a9-5fdcf7969df4.png">
+
+
+####  **4- Déterminer à partir du tracé, la fréquence fondamentale du gémissement de rorqual bleu**
+
+c'est la fréquence de premier pic qui est entre 16Hz-17Hz (16.92)
