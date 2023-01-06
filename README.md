@@ -116,3 +116,17 @@ plot(fshift,fftshift(abs(ybruit)));
 ```
 <img width="829" alt="6" src="https://user-images.githubusercontent.com/93081417/211004188-a3ae660f-0462-4fb3-9347-8726e78d5984.png">
 
+####  **7- Augmenter l’intensité de bruit puis afficher le spectre. Interpréter le résultat obtenu**
+
+```matlab
+bruit = 50*randn(size(x));%bruit
+xnoise = x+bruit; % signal+bruit
+fshift = (-N/2:N/2-1)*(fe/N);
+ybruit = fft(xnoise);
+ plot(fshift,fftshift(abs(ybruit)));
+```
+<img width="832" alt="7" src="https://user-images.githubusercontent.com/93081417/211004841-8e2c3d27-ac86-4a75-b7d6-fd5a8fd55761.png">
+
+###### Interpretation:
+lorsqu'on augmente l’intensité de bruit, on perd le signal informative
+
