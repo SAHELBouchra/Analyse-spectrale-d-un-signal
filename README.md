@@ -173,3 +173,7 @@ title('le spectre')
 ####  **4- Déterminer à partir du tracé, la fréquence fondamentale du gémissement de rorqual bleu**
 
 c'est la fréquence de premier pic qui est entre 16Hz-17Hz (16.92)
+
+## Réalisé par : SAHEL Bouchra
+## Filiere : Robotique et Cobotique .
+#### Encadré par :** Pr. Ammour Alae .
