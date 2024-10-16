@@ -1,4 +1,4 @@
-#                       TP1-Analyse-spectrale-d-un-signal
+#                       Analyse-spectrale-d-un-signal
 ## Transformée de Fourier discrète
 
 
