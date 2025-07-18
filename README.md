@@ -174,9 +174,3 @@ title('le spectre')
 
 c'est la fréquence de premier pic qui est entre 16Hz-17Hz (16.92)
 
-$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$ [ (Revenir au sommaire) ](#retour)
-***
-
-## SAHEL Bouchra
-## Filiére : Robotique et Cobotique .
-## Encadré par : Pr. Ammour Alae .
